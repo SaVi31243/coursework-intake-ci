@@ -1,0 +1,10 @@
+oleksandr ~ curl -fsSi --max-time 4 http://127.0.0.1:8481/submissions/310
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Wed, 25 Nov 2026 12:48:24 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 74
+X-Request-Id: 29eaf557c8914986a501f4a6590721fb
+
+{"group_code":"SE-64","id":310,"submission_key":"intake-2511-canary-110"}

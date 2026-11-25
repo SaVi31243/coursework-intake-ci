@@ -1,0 +1,39 @@
+{
+  "v1": {
+    "url": "https://github.com/SaVi31243/coursework-intake-ci/actions/runs/45616824532",
+    "conclusion": "success",
+    "headBranch": "v1.3.0",
+    "headSha": "cd5ee52d8548eb9df9625bebdde7aefe8a27d626",
+    "steps": {
+      "Run bounded API tests": "success",
+      "Build the intake image": "success",
+      "Save the release artifact": "success"
+    },
+    "image_id": "sha256:0e859b4dfad51cb08b6d602728dc53979b58139a6673f99939b51c305562ed5b",
+    "archive_sha256": "f74772f7368b7f2dc19055566d82fff6efa266d7080fe85ab99afc88966f805c"
+  },
+  "v2": {
+    "url": "https://github.com/SaVi31243/coursework-intake-ci/actions/runs/45616873392",
+    "conclusion": "success",
+    "headBranch": "v2.3.0",
+    "headSha": "d37416ce5c3f4e2ae6153e454fa47d07cad9cc2b",
+    "steps": {
+      "Run bounded API tests": "success",
+      "Build the intake image": "success",
+      "Save the release artifact": "success"
+    },
+    "image_id": "sha256:88824707081a9bbc913c7e5b2b4c1e8276437c4ddc8c93e5032dc12cc8f02b22",
+    "archive_sha256": "7e433e8182b84e22ee2a5c0c851bb3049034addd487e52813149a2a845380e20"
+  },
+  "failure": {
+    "url": "https://github.com/SaVi31243/coursework-intake-ci/actions/runs/45616880701",
+    "conclusion": "failure",
+    "headBranch": "trial/test-stops-build",
+    "headSha": "550ef350f9e205c3ac11c069c4d60e57e123daa8",
+    "steps": {
+      "Run bounded API tests": "failure",
+      "Build the intake image": "skipped",
+      "Save the release artifact": "skipped"
+    }
+  }
+}

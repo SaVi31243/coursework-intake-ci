@@ -1,0 +1,10 @@
+oleksandr ~ curl -fsSi --max-time 4 -H 'Content-Type: application/json' -d '{"group_code":"SE-64","submission_key":"stage-v2-2511"}' http://127.0.0.1:8491/submissions
+HTTP/1.1 201 CREATED
+Server: gunicorn
+Date: Wed, 25 Nov 2026 12:47:45 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 37
+X-Request-Id: 70a7e4165ee147a188896a8d78688026
+
+{"confirmation":"ACK-000002","id":2}

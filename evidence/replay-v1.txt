@@ -1,0 +1,10 @@
+oleksandr ~ curl -fsSi --max-time 4 -H 'Content-Type: application/json' -d '{"group_code":"SE-64","submission_key":"intake-2511-canary-110"}' http://127.0.0.1:8481/submissions
+HTTP/1.1 200 OK
+Server: gunicorn
+Date: Wed, 25 Nov 2026 12:48:24 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 11
+X-Request-Id: 5712dc91727c40dcbf9c0c2abcd05767
+
+{"id":310}
