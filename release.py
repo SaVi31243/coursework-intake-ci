@@ -1,6 +1,8 @@
-VERSION = "v1"
+VERSION = "v2"
 
 
 def notify(number, enabled):
-    """The first release only registers the submission."""
-    return None
+    """Simulate delivery to a confirmation endpoint after the commit."""
+    if not enabled:
+        raise ConnectionError("Confirmation endpoint unreachable")
+    return f"ACK-{number:06d}"
