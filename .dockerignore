@@ -1,0 +1,7 @@
+**
+!Dockerfile
+!requirements.txt
+!service.py
+!release.py
+!repository.py
+!observability.py
